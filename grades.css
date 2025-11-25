@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: linear-gradient(135deg, #60b4ec, #766aa3);
+
+}
+
+header{
+    background-color: #5d5bc3;
+    color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 30px;
+    margin: 17px 12px ;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 20px 17px ; 
+}
+
+ ul li a{
+    color: #efeaea;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+ ul li a:hover{
+    transition: 0.4s;
+     background-color: #a6a9e3;
+    padding: 10px;
+}
+
+.nav ul li a.active{
+    color: rgb(8, 8, 8);
+    background-color: #a6a9e3;
+    padding: 10px;
+}
+
+.grades-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.table-box {
+    background: linear-gradient(135deg, #a3d3f3, #b5aadf);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px black;
+    margin: 20px 0px;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grades-title{
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.grades-table th {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+}
+
+.grades-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.grades-table tr:hover {
+    background-color: #efefee;
+}
+
+.grades-note{
+    font-size: 20px;
+}
+
+footer{
+    background-color: #4e4ec2;
+    padding: 12px;
+    margin-top: 205px;
+    color: white;
+    text-align: center;
+
+}
